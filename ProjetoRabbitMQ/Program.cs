@@ -20,8 +20,8 @@ namespace ProjetoRabbitMQ
 
 
            var factory = new ConnectionFactory() { HostName = "localhost" };
-               factory.UserName = "guilrez";
-                factory.Password = "Guilherme99";
+               factory.UserName = "name";
+                factory.Password = "password";
                 using(var connection = factory.CreateConnection())
                 using(var channel = connection.CreateModel())
                 {
